@@ -1,14 +1,32 @@
-# unity-game-design-intro
-A Unity project that helps users understand game design basics.
+# Penalty Kick
+
+Name: Nicholas Wong
+
+Assignment: 14.2
+
+Unity Version: 2021.3.11f1
+
+Platforms: Windows, Web
 
 
-# Versioning
-The project was created with Unity 2021.3.5f1, a Long Term Support version.
 
-# Packages
-The project replaces the default Unity Input class with the newer Input System package.
+# Controls
 
-# Global settings
-Uses the newer Input System package with the Update Mode set to Fixed Update.  This means that input processing should occur on a regular drumbeat in FixedUpdate() rather than in the frame-rate-dependent Update().
+Fire: Left click or spacebar or F or right trigger
 
+Kick: Spacebar or K or right trigger
+
+Move: WASD or controller left stick
+
+Rotate: Mouse position or controller right stick
+
+Restart: R, Backspace, or controller start button
+
+
+
+# Gameplay
+
+Move the paddle to hit the ball! Score by sending the ball into the region outlined by orange and pink. The ball will bounce off of every surface and move at great speeds.
+
+# 
 

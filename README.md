@@ -6,7 +6,7 @@ Assignment: 14.2
 
 Unity Version: 2021.3.11f1
 
-Platforms: Windows, Web
+Platforms: Windows
 
 
 Controls

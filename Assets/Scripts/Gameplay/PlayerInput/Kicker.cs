@@ -47,9 +47,7 @@ namespace Scripts.Gameplay.PlayerInput
             
             // Find the closest ball within the max kick range
             var ball = FindClosestBall(maxKickRange, this.kickableLayers);
-            // Hmm, should the cooldown get reset even if there is no ball nearby?
-            //  We'd move this outside the if statement to make that happen.
-            this.sLastKickTime = Time.time;
+            
             if (ball)
             {
                 
@@ -64,8 +62,10 @@ namespace Scripts.Gameplay.PlayerInput
                 }
             }
 
+            // Hmm, should the cooldown get reset even if there is no ball nearby?
+            //  We'd move this outside the if statement to make that happen.
+            this.sLastKickTime = Time.time;
 
-           
         }
 
         IEnumerator KickLater(Collider2D ball, float delay)
